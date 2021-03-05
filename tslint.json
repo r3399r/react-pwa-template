@@ -5,6 +5,9 @@
     "tslint-microsoft-contrib/recommended"
   ],
   "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+  "linterOptions": {
+    "exclude": ["src/react-app-env.d.ts"]
+  },
   "rules": {
     "align": [true, "parameters", "statements"],
     "array-type": false,
